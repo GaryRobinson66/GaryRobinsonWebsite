@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <meta name="description" content="A contact me page for feedback from the user.">
+    <script>
+        
+    </script>
     <title>Contact Me</title>
 </head>
 <body id="pg7background">
@@ -24,11 +27,16 @@
                 <img src="images/postbox.jpg" id="postbox" title="postbox" alt="postbox">
             </div>
             <div class="column">
-                <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name">
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                <form onsubmit="event.preventDefault(); validateForm()">
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Full name">
+                <small class="error"></small><br>
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" placeholder="Your E-mail">
+                <small class="error"></small><br>
+
                 <label for="country">Country</label>
                 <select id="country" name="country">
                     <option value="ireland">Ireland</option>
@@ -36,9 +44,13 @@
                     <option value="europe">Europe</option>
                     <option value="row">Rest of World</option>
                 </select>
-                <label for="subject">Notes for the author</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-                <input type="submit" value="Submit">
+
+                <label for="message">Notes for the author:</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                <small class="error"></small><br>
+                
+                <input type="submit" value="submit">
+                <p id="success"></p>
                 </form>
             </div>
         </div>
@@ -68,5 +80,6 @@
             </a>
         </nav>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>

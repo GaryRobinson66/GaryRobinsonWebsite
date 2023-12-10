@@ -321,10 +321,16 @@ input[type=text], select, textarea {
     padding: 12px;
     border: 1px solid black;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
     margin-right: 10px;
     resize: vertical;
     box-sizing:border-box
+}
+textarea {
+    margin-bottom: 0px;
+}
+#country {
+    margin-bottom: 20px;
 }
 input[type=submit] {
     background-color: green;
@@ -333,6 +339,7 @@ input[type=submit] {
     border: black solid 1px;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px;
 }
 input[type=submit]:hover {
     background-color: darkgreen;
@@ -365,4 +372,13 @@ input[type=submit]:hover {
       width: 80%;
       margin-top: 0;
     }
+}
+.error {
+    color: red;
+}
+.error-border {
+    border-bottom:  1px solid red;
+}
+#success {
+    color: #28A745;
 }
