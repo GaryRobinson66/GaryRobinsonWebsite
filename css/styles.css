@@ -1,0 +1,368 @@
+body {
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 249, 255);
+    text-align: justify;
+    color: rgb(0, 0, 0);
+}
+header {
+    text-align: center;
+    background-color: lightslategray;
+    color: white;
+    border: black solid 1px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+footer {
+    margin: 20px 0px 0px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightsteelblue;
+    color: black;
+    border: black solid 1px;
+}
+.h1 {
+    color: white;
+}
+.freight {
+    height: auto;
+    width: 100%;
+    margin-bottom: 5px;
+    border-bottom: black solid 1px;
+}
+.freightheading {
+    color: rgb(255, 255, 255);
+    background-color: lightslategray;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 10px 0px 10px;
+    border-bottom: black solid 1px;
+}
+.images {
+    height: auto;
+    width: 35%;
+    margin-bottom: 5px;
+    border: black solid 1px;
+}
+.fcomp {
+    border: black solid 1px;
+    justify-content: center;
+    width: 45%;
+    border-collapse: collapse;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(251, 224, 255);
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.marginlist {
+    margin: 10px;
+    text-align: center;
+}
+.clearfix {
+    overflow: auto;
+}
+figure {
+    margin: 0;
+}
+#roundabout {
+    float: right;
+    margin-left: 2%;
+    min-width: 250px;
+}
+#Yard {
+    float: left;
+    margin-right: 2%;
+    min-width: 250px;
+}
+hr {    
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-top: slategray solid 2px;
+  }
+#hr2 {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+aside {
+    float: left;
+    width: 20%;
+    height: 100%;
+    min-width: 140px;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    line-height: 1.8;
+    margin-right: 20px;
+    background-color: rgb(255, 237, 214);
+}
+#asideheader {
+    font-weight: 700;
+}
+.companyimages {
+    width: 30%;
+    min-width: 300px;
+    border: black solid 1px;
+    margin: 10px;
+}
+.companyflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#pg4background {
+    background-image: linear-gradient(rgb(255, 254, 196), rgb(194, 243, 255));
+}
+#pg3background {
+    background-image: linear-gradient(rgb(196, 221, 255), rgb(255, 194, 194));
+}
+#pg2background {
+    background-image: radial-gradient(rgb(196, 255, 216), rgb(255, 194, 245));
+}
+#pg5background {
+    background-image: linear-gradient(to left, rgb(208, 255, 194), rgb(196, 233, 255), rgb(208, 255, 194));
+}
+#pg6background {
+    background-image: linear-gradient(to right, rgb(194, 198, 255), rgb(196, 255, 211), rgb(255, 194, 197))
+}
+#pg7background {
+    background-color: rgb(193, 255, 196);
+    box-sizing: border-box;
+}
+#div {
+    text-align: justify;
+    background-color: rgb(245, 255, 219);
+    padding: 20px 5%;
+    border: black solid 1px;
+}
+#heading2 {
+    padding: 0% 10%;
+}
+#height {
+    float: right;
+    margin: 20px;
+    overflow: hidden;
+}
+.video-container {
+    position: relative;
+    width: 50%;
+    padding-bottom: 28.125%;
+    overflow: hidden;
+    border: black solid 1px;
+}
+@media (max-width: 900px) {
+    .video-container {
+        width: 90%;
+        padding-bottom: 50.625%;
+        overflow: hidden;
+        position: relative;
+    }
+}
+@media (min-width: 1400px) {
+    .video-container {
+        width: 600px;
+        padding-bottom: 337.5px;
+        overflow: hidden;
+        position: relative;
+    }
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#container {
+    float: right;
+    width: 30%;
+    height: auto;
+}
+#black {
+    list-style-image: linear-gradient(to left bottom, red, gray, black);
+    list-style-position: inside;
+    padding-top: 20px; 
+    line-height: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#ministers {
+    float: right;
+    margin-left: 10px;
+    min-width: 300px;
+    width: 40%;
+    border: black solid 1px;
+}
+figcaption {
+    text-align: center;
+    background-color: lightslategray;
+    color: white;
+    border: black solid 1px;
+    float: right;
+    clear: right;
+    margin-left: 10px;
+    min-width: 300px;
+    width: 40%;
+    margin-top: 5px;
+}
+#section {
+    text-align: center;
+    display: block;
+    line-height: 2;  
+    background-color: rgb(208, 255, 237);
+    padding: 5px 20% 20px;
+    margin-top: 10px;
+    border: black solid 1px;
+}
+#pg4 {
+    line-height: 1.5;
+    background-color: rgba(220, 247, 255, 0.7);
+    padding-bottom: 1px;
+    border: black solid 1px;
+}
+.p4width {
+    padding: 0px 10px;
+}
+#p4backcolor {
+    background-color: rgb(243, 255, 220);
+}
+.span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+a {
+   text-decoration:none;
+}
+a:link {
+    color: rgb(0, 89, 255);
+}
+a:visited {
+    color: dimgray;
+}
+#h2 {
+    text-align: center;
+    background-color: rgb(253, 194, 180);
+    padding: 10px;
+    color: rgb(255, 0, 0);
+    border-bottom: black solid 1px;
+    margin: 0px;
+}
+.references {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.departures {
+    width: 25%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+.pg5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+th, tr {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-collapse: collapse;
+}
+.top {
+    background-color: rgb(144, 196, 255);
+    font-size: larger;
+}
+.tables, td {
+    border: 1px solid black;
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tableheader {
+    color: rgb(255, 255, 255);
+    background-color: lightslategray;
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+.lightgray {
+    background-color: lightgray;
+}
+.zebra {
+    background-color: lightcyan;
+}
+.zebra:nth-child(even) {
+    background-color: lightblue;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    resize: vertical;
+    box-sizing:border-box
+}
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: darkgreen;
+}
+.split {
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.column {
+    float: left;
+    width: 45%;
+    margin-top: 5px;
+    padding: 20px;
+    text-align: left;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#postbox {
+    width: 100%;
+    border: black solid 1px;
+    margin-top: 10px;
+    padding-right: 0;
+}
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 80%;
+      margin-top: 0;
+    }
+}
